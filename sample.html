@@ -1,0 +1,65 @@
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV7yJzw4d0x8tgsdIZRTRKqriYJvv13UY"
+  type="text/javascript"></script>
+        <link rel="stylesheet/less" type="text/css" href="./style/main.less" />
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="./lib/jquery.scrollablelink_ext.js"></script>
+        <script src="./lib/utility.js"></script>
+        <script src="./lib/WSMessenger.js"></script>
+        <script src="./lib/Chart.js"></script>
+		<script src="./sample.js"></script>
+        <script>
+        </script>
+    </head>
+    <body>
+		<svg id="background"></svg>
+		<div id="navi_left" class="scrollLink" href="#prev">
+			<div class="pager">《</div>
+		</div>
+		<div id="navi_right" class="scrollLink" href="#next">
+			<div class="pager">》</div>
+		</div>
+		<div id="scrollArea">
+			<div class="scrollTarget">
+				<div class="title">One2OneChart</div>
+				<div id="One2OneChart" class="chart"></div>
+				<button id="btn_One2One">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">PieChart</div>
+				<div id="PieChart" class="chart"></div>
+				<button id="btn_Pie">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">BarChart</div>
+				<div id="BarChart" class="chart"></div>
+				<button id="btn_Bar">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">ColumnChart</div>
+				<div id="ColumnChart" class="chart"></div>
+				<button id="btn_Column">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">ScatterChart</div>
+				<div id="ScatterChart" class="chart"></div>
+				<button id="btn_Scatter">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">GeoChart</div>
+				<div id="GGeoChart" class="chart"></div>
+				<button id="btn_GGeo">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">GeoChart</div>
+				<div id="GeoChart" class="chart"></div>
+				<button id="btn_Geo">Animation</button>
+			</div>
+		</div>
+    </body>
+</html>

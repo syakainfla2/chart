@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet/less" type="text/css" href="./style/form.less" />
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+        <script src="./lib/utility.js"></script>
+		<script src="./form.js"></script>
+		<title>Form</title>
+	</head>
+	<body>
+		<font class="title" align="center">Questions</font>
+		<form action="post.php" method="post">
+			<div>
+				<font class="title">Question1: left or right</font>
+				<label><input type="radio" name="q1" value="1" />Fantasy & Sci Fi</label>
+				<label><input type="radio" name="q1" value="2" />Romance</label>
+			</div>
+			<div>
+				<font class="title">Question2: How spend the holidays</font>
+				<label><input type="radio" name="q2" value="1" />Work</label>
+				<label><input type="radio" name="q2" value="2" />Eat</label>
+				<label><input type="radio" name="q2" value="3" />Commute</label>
+				<label><input type="radio" name="q2" value="4" />Watch TV</label>
+				<label><input type="radio" name="q2" value="5" />Sleep</label>
+			</div>
+			<div>
+				<font class="title">Question3: How spend the holidays</font>
+				<label><input type="radio" name="q3" value="1" />Work</label>
+				<label><input type="radio" name="q3" value="2" />Eat</label>
+				<label><input type="radio" name="q3" value="3" />Commute</label>
+				<label><input type="radio" name="q3" value="4" />Watch TV</label>
+				<label><input type="radio" name="q3" value="5" />Sleep</label>
+				<label><input type="radio" name="q3" value="else" connect="#q3-else" />Else</label>
+				<label><input type="text" name="q3-else" id="q3-else" /></label>
+			</div>
+			<div>
+				<font class="title">Question4: How spend the holidays</font>
+				<label><input type="radio" name="q4" value="1" />Work</label>
+				<label><input type="radio" name="q4" value="2" />Eat</label>
+				<label><input type="radio" name="q4" value="3" />Commute</label>
+				<label><input type="radio" name="q4" value="4" />Watch TV</label>
+				<label><input type="radio" name="q4" value="5" />Sleep</label>
+			</div>
+			<div>
+				<font class="title">Question5: How old and your weight</font>
+				<label><input type="text" name="q5_old" placeholder="old" size="2"/></label>
+				<label><input type="text" name="q5_weight" placeholder="weight" size="2" /></label>
+			</div>
+			<input type="submit" value="Send" />
+		</form>
+	</body>
+</html>

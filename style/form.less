@@ -1,0 +1,30 @@
+/*!
+ * main.less
+ * main stylesheet/less
+ *
+ */
+
+@import "color.less";
+
+div {
+	box-sizing: border-box;
+}
+
+body > .title {
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 20px;
+}
+
+form div {
+	padding-bottom: 20px;
+	& .title {
+		display: block;
+		font-weight: bold;
+	}
+	& label {
+		display: block;
+		padding-left: 10px;
+	}
+}

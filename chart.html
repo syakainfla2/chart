@@ -1,0 +1,80 @@
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV7yJzw4d0x8tgsdIZRTRKqriYJvv13UY"
+  type="text/javascript"></script>
+        <link rel="stylesheet/less" type="text/css" href="./style/main.less" />
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="./lib/jquery.scrollablelink_ext.js"></script>
+        <script src="./lib/utility.js"></script>
+        <script src="./lib/WSMessenger.js"></script>
+        <script src="./lib/Chart.js"></script>
+		<script src="./main.js"></script>
+        <script>
+        </script>
+    </head>
+    <body>
+		<svg id="background"></svg>
+		<div id="navi_left" class="scrollLink" href="#prev">
+			<div class="pager">《</div>
+		</div>
+		<div id="navi_right" class="scrollLink" href="#next">
+			<div class="pager">》</div>
+		</div>
+		<div id="scrollArea">
+			<div class="scrollTarget">
+				<div class="title">スマホのオンラインゲームは何をしていますか？</div>
+				<div id="Q1" class="chart"></div>
+				<button id="btn_Q1">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">携帯端末は何をつかっていますか？</div>
+				<div id="Q2" class="chart"></div>
+				<button id="btn_Q2">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">iPhone7への乗り換え予定はありますか？</div>
+				<div id="Q3" class="chart"></div>
+				<button id="btn_Q3">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">出身地はどこですか？</div>
+				<div id="Q4" class="chart"></div>
+				<button id="btn_Q4">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">仕事へのモチベーションの保ち方や栄養の取り方等ありますか？</div>
+				<div id="Q5" class="chart"></div>
+				<button id="btn_Q5">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">自社に入社して何年目が一番楽しかったですか？</div>
+				<div id="Q6" class="chart"></div>
+				<button id="btn_Q6">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">前職は何でしたか？</div>
+				<div id="Q7" class="chart"></div>
+				<button id="btn_Q7">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">休日は何をして過ごしますか？</div>
+				<div id="Q8" class="chart"></div>
+				<button id="btn_Q8">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">VRを体験したことがありますか？</div>
+				<div id="Q9" class="chart"></div>
+				<button id="btn_Q9">Animation</button>
+			</div>
+			<div class="scrollTarget">
+				<div class="title">必ず見るTV番組は何ですか？</div>
+				<div id="Q10" class="chart"></div>
+				<button id="btn_Q10">Animation</button>
+			</div>
+		</div>
+    </body>
+</html>
